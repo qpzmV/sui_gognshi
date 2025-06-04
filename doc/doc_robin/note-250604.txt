@@ -1,0 +1,101 @@
+
+warning: `consensus-simtests` (lib) generated 18 warnings (run `cargo fix --lib -p consensus-simtests` to apply 9 suggestions)
+error[E0308]: mismatched types
+   --> consensus/simtests/src/tests/simtests.rs:42:5
+    |
+42  |     #[sim_test(config = "test_config()")]
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     |
+    |     expected `Receiver<()>`, found `Receiver<_>`
+    |     arguments to this function are incorrect
+    |
+    = note: `tokio::sync::oneshot::Receiver<_>` and `Receiver<()>` have similar names, but are actually distinct types
+note: `tokio::sync::oneshot::Receiver<_>` is defined in crate `tokio`
+   --> /Users/edy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.45.1/src/sync/oneshot.rs:322:1
+    |
+322 | pub struct Receiver<T> {
+    | ^^^^^^^^^^^^^^^^^^^^^^
+note: `Receiver<()>` is defined in crate `real_tokio`
+   --> /Users/edy/.cargo/git/checkouts/tokio-msim-fork-c8d85998b0ca9c9b/7329bff/tokio/src/sync/oneshot.rs:322:1
+    |
+322 | pub struct Receiver<T> {
+    | ^^^^^^^^^^^^^^^^^^^^^^
+
+sim_test 代码 macOS 下报错解决方法：
+1.Cargo.lock 搜索 "1.45.1"
+2.删去
+
+[[package]]
+name = "tokio"
+version = "1.45.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "75ef51a33ef1da925cea3e4eb122833cb377c61439ca401b770f54902b806779"
+dependencies = [
+ "backtrace",
+ "bytes",
+ "libc",
+ "mio 1.0.4",
+ "parking_lot 0.12.4",
+ "pin-project-lite",
+ "signal-hook-registry",
+ "socket2 0.5.10",
+ "tokio-macros 2.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "tracing",
+ "windows-sys 0.52.0",
+]
+
+3.
+./scripts/simtest/install.sh
+
+
+4.
+cargo simtest -p consensus-simtests
+
+
+% cargo simtest -p consensus-simtests
+    Updating git repository `https://github.com/MystenLabs/mysten-sim.git`
+    Updating crates.io index
+     Locking 2 packages to latest compatible versions
+      Adding futures-timer v3.0.3 (https://github.com/MystenLabs/mysten-sim.git?rev=cad62679fd180a48c665f842cb80045f8fcfdee9#cad62679)
+      Adding tokio v1.44.2 (https://github.com/MystenLabs/mysten-sim.git?rev=cad62679fd180a48c665f842cb80045f8fcfdee9#cad62679)  // 这里会应用布丁版本的 tokio
+
+// 然后修改了 Cargo.lock 文件     
+[[package]]
+name = "tokio"
+version = "1.44.2"
+source = "git+https://github.com/MystenLabs/mysten-sim.git?rev=cad62679fd180a48c665f842cb80045f8fcfdee9#cad62679fd180a48c665f842cb80045f8fcfdee9"
+dependencies = [
+ "bytes",
+ "futures",
+ "libc",
+ "mio 0.8.11",
+ "msim",
+ "real_tokio",
+ "tracing",
+]
+
+
+5.
+第4步执行结束后，补丁的 Cargo.lock 又回还原为：
+[[package]]
+name = "tokio"
+version = "1.45.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "75ef51a33ef1da925cea3e4eb122833cb377c61439ca401b770f54902b806779"
+dependencies = [
+ "backtrace",
+ "bytes",
+ "libc",
+ "mio 1.0.4",
+ "parking_lot 0.12.4",
+ "pin-project-lite",
+ "signal-hook-registry",
+ "socket2 0.5.10",
+ "tokio-macros 2.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "tracing",
+ "windows-sys 0.52.0",
+]
+
+6.下次执行的时候，又要手动循环一次，删掉1.45.1的 tokio
+
+

@@ -1,0 +1,1049 @@
+   Compiling errno v0.3.12
+   Compiling num_cpus v1.17.0
+   Compiling siphasher v1.0.1
+   Compiling deranged v0.4.0
+   Compiling futures-executor v0.3.31
+   Compiling icu_provider v2.0.0
+   Compiling threadpool v1.8.1
+   Compiling quinn-udp v0.5.12
+   Compiling icu_properties v2.0.1
+   Compiling zstd-sys v2.0.15+zstd.1.5.7
+   Compiling icu_normalizer v2.0.0
+   Compiling async-stream-impl v0.3.6
+   Compiling pem-rfc7468 v0.6.0
+   Compiling arrayref v0.3.9
+   Compiling der v0.6.1
+   Compiling time v0.3.41
+   Compiling futures v0.3.31
+   Compiling quinn v0.11.8
+   Compiling rustls-webpki v0.103.3
+   Compiling idna_adapter v1.2.1
+   Compiling idna v1.0.3
+   Compiling indexmap v2.9.0
+   Compiling bytes v1.10.1
+   Compiling toml v0.5.11
+   Compiling crypto-common v0.1.6
+   Compiling block-buffer v0.10.4
+   Compiling digest v0.10.7
+   Compiling serde_yaml v0.8.26
+   Compiling hex v0.4.3
+   Compiling tokio v1.45.1
+   Compiling http v1.3.1
+   Compiling proc-macro-crate v1.1.3
+   Compiling enum-compat-util v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/enum-compat-util)
+   Compiling serde_with v3.12.0
+   Compiling parity-scale-codec-derive v2.3.1
+   Compiling bcs v0.1.6
+   Compiling move-proc-macros v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-proc-macros)
+   Compiling http-body v1.0.1
+   Compiling http-body-util v0.1.3
+   Compiling digest v0.9.0
+   Compiling uint v0.9.5
+   Compiling block-buffer v0.9.0
+   Compiling impl-serde v0.3.2
+   Compiling sha2 v0.9.9
+   Compiling url v2.5.4
+   Compiling serde_bytes v0.11.17
+   Compiling parity-scale-codec v2.3.1
+   Compiling hmac v0.12.1
+   Compiling sha2 v0.10.9
+   Compiling signature v2.2.0
+   Compiling sha1 v0.10.6
+   Compiling ark-serialize v0.4.2
+   Compiling impl-codec v0.5.1
+   Compiling primitive-types v0.10.1
+   Compiling ark-ff v0.4.2
+   Compiling webpki-roots v1.0.0
+   Compiling hashbrown v0.13.2
+   Compiling portable-atomic v1.11.0
+   Compiling sec1 v0.7.3
+   Compiling crypto-bigint v0.5.5
+   Compiling core-foundation v0.10.1
+   Compiling security-framework-sys v2.14.0
+   Compiling clap_derive v4.5.32
+   Compiling snap v1.1.1
+   Compiling move-core-types v0.0.4 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-core-types)
+   Compiling eyre v0.6.12
+   Compiling unicase v2.8.1
+   Compiling constant_time_eq v0.3.1
+   Compiling darling_core v0.14.4
+   Compiling security-framework v3.2.0
+   Compiling mime_guess v2.0.5
+   Compiling block-padding v0.3.3
+   Compiling serde_urlencoded v0.7.1
+   Compiling tokio-util v0.7.15
+   Compiling data-encoding-macro-internal v0.1.16
+   Compiling tokio-rustls v0.26.2
+   Compiling h2 v0.4.10
+   Compiling tower v0.5.2
+   Compiling tokio-stream v0.1.17
+   Compiling tower v0.4.13
+   Compiling elliptic-curve v0.13.8
+   Compiling move-binary-format v0.0.3 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-binary-format)
+   Compiling typeid v1.0.3
+   Compiling darling_macro v0.14.4
+   Compiling inout v0.1.4
+   Compiling rfc6979 v0.4.0
+   Compiling rustc_version_runtime v0.3.0
+   Compiling synstructure v0.12.6
+   Compiling utf8parse v0.2.2
+   Compiling linkme-impl v0.3.33
+   Compiling tungstenite v0.26.2
+   Compiling darling v0.14.4
+   Compiling ecdsa v0.16.9
+   Compiling cipher v0.4.4
+   Compiling blake2 v0.10.6
+   Compiling bincode v1.3.3
+   Compiling multihash-derive v0.8.1
+   Compiling phf_shared v0.11.3
+   Compiling tokio-tungstenite v0.26.2
+   Compiling msim-macros v0.1.0 (https://github.com/MystenLabs/mysten-sim.git?rev=cad62679fd180a48c665f842cb80045f8fcfdee9#cad62679)
+   Compiling primeorder v0.13.6
+   Compiling blake2b_simd v1.0.3
+   Compiling axum-core v0.5.2
+   Compiling prost v0.13.5
+   Compiling universal-hash v0.5.1
+   Compiling serde_path_to_error v0.1.17
+   Compiling move-vm-config v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-vm-config)
+   Compiling spki v0.6.0
+   Compiling pairing v0.23.0
+   Compiling hashbrown v0.14.5
+   Compiling bytemuck v1.23.0
+   Compiling keccak v0.1.5
+   Compiling blstrs v0.7.1
+   Compiling hyper v1.6.0
+   Compiling ark-poly v0.4.2
+   Compiling sha3 v0.10.8
+   Compiling pkcs8 v0.9.0
+   Compiling polyval v0.6.2
+   Compiling pasta_curves v0.5.1
+   Compiling anstyle-parse v0.2.6
+   Compiling rustls-native-certs v0.8.1
+   Compiling sui-enum-compat-util v0.1.0 (/Users/edy/workspace/osp/sui/crates/sui-enum-compat-util)
+   Compiling ark-ec v0.4.2
+   Compiling anstyle-query v1.1.2
+   Compiling is_terminal_polyfill v1.70.1
+   Compiling anstyle v1.0.10
+   Compiling colorchoice v1.0.3
+   Compiling dyn-clone v1.0.19
+   Compiling curve25519-dalek-ng v4.1.1
+   Compiling hyper-util v0.1.13
+   Compiling anstream v0.6.18
+   Compiling neptune v13.0.0
+   Compiling tempfile v3.20.0
+   Compiling sui-proc-macros v0.7.0 (/Users/edy/workspace/osp/sui/crates/sui-proc-macros)
+   Compiling ghash v0.5.1
+   Compiling pkcs1 v0.4.1
+   Compiling hyper-timeout v0.5.2
+   Compiling axum v0.8.4
+   Compiling hyper-rustls v0.27.6
+   Compiling p256 v0.13.2
+   Compiling ctr v0.9.2
+   Compiling aes v0.8.4
+   Compiling futures-timer v3.0.3 (https://github.com/MystenLabs/mysten-sim.git?rev=cad62679fd180a48c665f842cb80045f8fcfdee9#cad62679)
+   Compiling bs58 v0.4.0
+   Compiling aead v0.5.2
+   Compiling terminal_size v0.4.2
+   Compiling async-stream v0.3.6
+   Compiling im v15.1.0
+   Compiling clap_lex v0.7.4
+   Compiling unicode-segmentation v1.12.0
+   Compiling iri-string v0.7.8
+   Compiling clap_builder v4.5.39
+   Compiling convert_case v0.6.0
+   Compiling secp256k1 v0.27.0
+   Compiling aes-gcm v0.10.3
+   Compiling rsa v0.8.2
+   Compiling ark-secp256r1 v0.4.0
+   Compiling ed25519-consensus v2.1.0
+   Compiling cbc v0.1.2
+   Compiling hkdf v0.12.4
+   Compiling unicode-width v0.1.14
+   Compiling tinyvec_macros v0.1.1
+   Compiling tinyvec v1.9.0
+   Compiling asn1-rs v0.7.1
+   Compiling protobuf v2.28.0
+   Compiling derive_more-impl v1.0.0
+   Compiling clap v4.5.39
+   Compiling safe_arch v0.7.4
+   Compiling strum_macros v0.25.3
+   Compiling fastcrypto v0.1.8 (https://github.com/MystenLabs/fastcrypto?rev=69d496c71fb37e3d22fe85e5bbfd4256d61422b9#69d496c7)
+   Compiling typeshare-annotation v1.0.4
+   Compiling trait-set v0.3.0
+   Compiling petgraph v0.8.1
+   Compiling wide v0.7.32
+   Compiling dashmap v5.5.3
+   Compiling webpki-roots v0.26.11
+   Compiling ed25519 v2.2.3
+   Compiling uuid v1.17.0
+   Compiling strum_macros v0.27.1
+   Compiling sui-protocol-config-macros v0.1.0 (/Users/edy/workspace/osp/sui/crates/sui-protocol-config-macros)
+   Compiling itertools v0.12.1
+   Compiling fastbloom v0.9.0
+   Compiling oid-registry v0.8.1
+   Compiling der-parser v10.0.0
+   Compiling tower-http v0.6.6
+   Compiling num_enum_derive v0.6.1
+   Compiling yasna v0.5.2
+   Compiling better_typeid_derive v0.1.1
+   Compiling pem v3.0.5
+   Compiling lru-slab v0.1.2
+   Compiling quinn-proto v0.11.12
+   Compiling rcgen v0.13.2
+   Compiling reqwest v0.12.19
+   Compiling x509-parser v0.17.0
+   Compiling zstd v0.13.3
+   Compiling brotli-decompressor v5.0.0
+   Compiling tonic v0.13.1
+   Compiling enum_dispatch v0.3.13
+   Compiling raw-cpuid v11.5.0
+   Compiling quanta v0.12.5
+   Compiling brotli v8.0.1
+   Compiling ark-relations v0.4.0
+   Compiling phf_generator v0.11.3
+   Compiling data-encoding-macro v0.1.18
+   Compiling proptest-derive v0.5.1
+   Compiling packed_struct_codegen v0.10.1
+   Compiling dirs-sys-next v0.1.2
+   Compiling console v0.15.11
+   Compiling spinning_top v0.3.0
+   Compiling similar v2.7.0
+   Compiling unsigned-varint v0.7.2
+   Compiling governor v0.6.3
+   Compiling multihash v0.17.0
+   Compiling insta v1.43.1
+   Compiling packed_struct v0.10.1
+   Compiling multibase v0.9.1
+   Compiling anemo v0.0.0 (https://github.com/mystenlabs/anemo.git?rev=9c52c3c7946532163a79129db15180cdb984bab4#9c52c3c7)
+   Compiling async-compression v0.4.23
+   Compiling dirs-next v2.0.0
+   Compiling ark-snark v0.4.0
+   Compiling phf_macros v0.11.3
+   Compiling blake2s_simd v1.0.3
+   Compiling prometheus-closure-metric v0.1.0 (/Users/edy/workspace/osp/sui/crates/prometheus-closure-metric)
+   Compiling linkme v0.3.33
+   Compiling iana-time-zone v0.1.63
+   Compiling rustls-pemfile v2.2.0
+   Compiling colored v2.2.0
+   Compiling half v2.6.0
+   Compiling ciborium-io v0.2.2
+   Compiling http-range-header v0.4.2
+   Compiling winnow v0.7.10
+   Compiling ciborium-ll v0.2.2
+   Compiling tower-http v0.5.2
+   Compiling mysten-metrics v0.7.0 (/Users/edy/workspace/osp/sui/crates/mysten-metrics)
+   Compiling move-command-line-common v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-command-line-common)
+   Compiling antithesis_sdk v0.2.5
+   Compiling chrono v0.4.41
+   Compiling phf v0.11.3
+   Compiling bellpepper-core v0.4.0
+   Compiling anemo-tower v0.0.0 (https://github.com/mystenlabs/anemo.git?rev=9c52c3c7946532163a79129db15180cdb984bab4#9c52c3c7)
+   Compiling erased-discriminant v1.0.1
+   Compiling ark-crypto-primitives v0.4.0
+   Compiling multiaddr v0.17.1
+   Compiling tonic-health v0.13.1
+   Compiling sui-macros v0.7.0 (/Users/edy/workspace/osp/sui/crates/sui-macros)
+   Compiling sui-http v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-http)
+   Compiling signature v1.6.4
+   Compiling bitmaps v2.1.0
+   Compiling mysten-network v0.2.0 (/Users/edy/workspace/osp/sui/crates/mysten-network)
+   Compiling mysten-common v0.1.0 (/Users/edy/workspace/osp/sui/crates/mysten-common)
+   Compiling ark-groth16 v0.4.0
+   Compiling bellpepper v0.4.1
+   Compiling sized-chunks v0.6.5
+   Compiling serde-reflection v0.5.0
+   Compiling move-symbol-pool v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-symbol-pool)
+   Compiling ciborium v0.2.2
+   Compiling shared-crypto v0.0.0 (/Users/edy/workspace/osp/sui/crates/shared-crypto)
+   Compiling derive_more v1.0.0
+   Compiling ark-bn254 v0.4.0
+   Compiling roaring v0.10.12
+   Compiling move-vm-profiler v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-vm-profiler)
+   Compiling serde-env v0.2.0
+   Compiling typed-store-error v0.4.0 (/Users/edy/workspace/osp/sui/crates/typed-store-error)
+   Compiling rand_xoshiro v0.6.0
+   Compiling wait-timeout v0.2.1
+   Compiling bnum v0.12.1
+   Compiling rusty-fork v0.3.0
+   Compiling sui-protocol-config v0.1.0 (/Users/edy/workspace/osp/sui/crates/sui-protocol-config)
+   Compiling move-vm-types v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-vm-types)
+   Compiling move-ir-types v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-ir-types)
+   Compiling consensus-config v0.1.0 (/Users/edy/workspace/osp/sui/consensus/config)
+   Compiling coset v0.3.8
+   Compiling sui-sdk-types v0.0.4 (https://github.com/MystenLabs/sui-rust-sdk.git?rev=bf1875211b15bd67ce5f7a72152bf952479f1668#bf187521)
+   Compiling move-bytecode-utils v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-bytecode-utils)
+   Compiling typeshare v1.0.4
+   Compiling strum v0.25.0
+   Compiling move-bytecode-verifier-meter v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-bytecode-verifier-meter)
+   Compiling prost-types v0.13.5
+   Compiling psm v0.1.26
+   Compiling crossbeam-epoch v0.9.18
+   Compiling termcolor v1.4.1
+   Compiling codespan-reporting v0.11.1
+   Compiling crossbeam-deque v0.8.6
+   Compiling proptest v1.6.0
+   Compiling fastcrypto-zkp v0.1.3 (https://github.com/MystenLabs/fastcrypto?rev=69d496c71fb37e3d22fe85e5bbfd4256d61422b9#69d496c7)
+   Compiling move-abstract-interpreter v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-abstract-interpreter)
+   Compiling passkey-types v0.4.0
+   Compiling move-vm-test-utils v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-vm-test-utils)
+   Compiling better_any v0.1.1
+   Compiling num_enum v0.6.1
+   Compiling strum v0.27.1
+   Compiling fastcrypto-tbls v0.1.0 (https://github.com/MystenLabs/fastcrypto?rev=69d496c71fb37e3d22fe85e5bbfd4256d61422b9#69d496c7)
+   Compiling p384 v0.13.1
+   Compiling lru v0.10.1
+   Compiling serde-name v0.2.1
+   Compiling ouroboros_macro v0.17.2
+   Compiling stacker v0.1.21
+   Compiling ouroboros v0.17.2
+   Compiling rayon-core v1.12.1
+   Compiling move-ir-to-bytecode-syntax v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-ir-to-bytecode-syntax)
+   Compiling move-bytecode-source-map v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-bytecode-source-map)
+   Compiling curve25519-dalek v4.1.3
+   Compiling move-bytecode-verifier v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-bytecode-verifier)
+   Compiling move-ir-to-bytecode v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-ir-to-bytecode)
+   Compiling sui-types v0.1.0 (/Users/edy/workspace/osp/sui/crates/sui-types)
+   Compiling rayon v1.10.0
+   Compiling lsp-types v0.95.1
+   Compiling curve25519-dalek-derive v0.1.1
+   Compiling dunce v1.0.5
+   Compiling codespan v0.11.1
+   Compiling move-trace-format v0.0.1 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-trace-format)
+   Compiling lcov v0.8.1
+   Compiling regex-syntax v0.6.29
+   Compiling ed25519-dalek v2.1.1
+   Compiling term v0.7.0
+   Compiling k256 v0.13.4
+   Compiling jsonrpsee-types v0.24.9
+   Compiling http v0.2.12
+   Compiling crypto-bigint v0.4.9
+   Compiling dupe_derive v0.9.1
+   Compiling ff v0.12.1
+   Compiling petgraph v0.6.5
+   Compiling string_cache v0.8.9
+   Compiling sec1 v0.3.0
+   Compiling group v0.12.1
+   Compiling jsonrpsee-core v0.24.9
+   Compiling sui-crypto v0.0.4 (https://github.com/MystenLabs/sui-rust-sdk.git?rev=bf1875211b15bd67ce5f7a72152bf952479f1668#bf187521)
+   Compiling ascii-canvas v3.0.0
+   Compiling regex-automata v0.1.10
+   Compiling tiny-keccak v2.0.2
+   Compiling move-compiler v0.0.1 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-compiler)
+   Compiling tonic-reflection v0.13.1
+   Compiling tonic-web v0.13.1
+   Compiling ena v0.14.3
+   Compiling is-terminal v0.4.16
+   Compiling bytecount v0.6.9
+   Compiling matchit v0.7.3
+   Compiling papergrid v0.9.1
+   Compiling lalrpop v0.19.12
+   Compiling matchers v0.1.0
+   Compiling elliptic-curve v0.12.3
+   Compiling http-body v0.4.6
+   Compiling rfc6979 v0.3.1
+   Compiling rustls-platform-verifier v0.5.3
+   Compiling schemafy_core v0.5.2
+   Compiling soketto v0.8.1
+   Compiling tracing-log v0.2.0
+   Compiling tracing-serde v0.2.0
+   Compiling tabled_derive v0.6.0
+   Compiling allocative_derive v0.3.3
+   Compiling ctor v0.1.26
+   Compiling sharded-slab v0.1.7
+   Compiling thread_local v1.1.8
+   Compiling bumpalo v3.17.0
+   Compiling toml_datetime v0.6.9
+   Compiling allocative v0.3.4
+   Compiling logos-derive v0.12.1
+   Compiling toml_edit v0.22.26
+   Compiling tracing-subscriber v0.3.19
+   Compiling tabled v0.12.2
+   Compiling schemafy_lib v0.5.2
+   Compiling ecdsa v0.14.8
+   Compiling h2 v0.3.26
+   Compiling dupe v0.9.1
+   Compiling sui-rpc-api v0.1.0 (/Users/edy/workspace/osp/sui/crates/sui-rpc-api)
+   Compiling pbkdf2 v0.11.0
+   Compiling git-version-macro v0.3.9
+   Compiling axum-core v0.3.4
+   Compiling memoffset v0.6.5
+   Compiling nibble_vec v0.1.0
+   Compiling vcpkg v0.2.15
+   Compiling prettyplease v0.2.33
+   Compiling humantime v2.2.0
+   Compiling bindgen v0.69.5
+   Compiling git-version v0.3.9
+   Compiling radix_trie v0.2.1
+   Compiling libz-sys v1.1.22
+   Compiling starlark_map v0.13.0
+   Compiling sui-json v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-json)
+   Compiling nix v0.28.0
+   Compiling starlark_syntax v0.13.0
+   Compiling k256 v0.11.6
+   Compiling hyper v0.14.32
+   Compiling json_to_table v0.6.0 (https://github.com/zhiburt/tabled/?rev=e449317a1c02eb6b29e409ad6617e5d9eb7b3bd4#e449317a)
+   Compiling schemafy v0.5.2
+   Compiling proc-macro-crate v3.3.0
+   Compiling logos v0.12.1
+   Compiling jsonrpsee-client-transport v0.24.9
+   Compiling prost-derive v0.12.6
+   Compiling lsp-types v0.94.1
+   Compiling unicode-normalization v0.1.24
+   Compiling annotate-snippets v0.9.2
+   Compiling ripemd v0.1.3
+   Compiling fd-lock v4.0.4
+   Compiling snafu-derive v0.8.6
+   Compiling lz4-sys v1.11.1+lz4-1.10.0
+   Compiling axum v0.6.20
+   Compiling const-str v0.5.7
+   Compiling move-coverage v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-coverage)
+   Compiling home v0.5.11
+   Compiling rustyline v14.0.0
+   Compiling jsonrpsee-server v0.24.9
+   Compiling tiny-bip39 v1.0.0
+   Compiling sui-package-resolver v0.1.0 (/Users/edy/workspace/osp/sui/crates/sui-package-resolver)
+   Compiling move-disassembler v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-disassembler)
+   Compiling sui-json-rpc-types v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-json-rpc-types)
+   Compiling snafu v0.8.6
+   Compiling bin-version v1.50.0 (/Users/edy/workspace/osp/sui/crates/bin-version)
+   Compiling bip32 v0.4.0
+   Compiling prost v0.12.6
+   Compiling jsonrpsee-ws-client v0.24.9
+   Compiling starlark_derive v0.13.0
+   Compiling jsonrpsee-proc-macros v0.24.9
+   Compiling debugserver-types v0.5.0
+   Compiling jsonrpsee-http-client v0.24.9
+   Compiling display_container v0.9.0
+   Compiling textwrap v0.11.0
+   Compiling tokio-io-timeout v1.2.0
+   Compiling axum-core v0.4.5
+   Compiling md-5 v0.10.6
+   Compiling opentelemetry v0.27.1
+   Compiling quick-xml v0.37.5
+   Compiling erased-serde v0.3.31
+   Compiling versions v4.1.0
+   Compiling tokio-macros v2.5.0 (https://github.com/MystenLabs/tokio-msim-fork.git?rev=7329bff6ee996d8df6cf810a9c2e59631ad5a2fb#7329bff6)
+   Compiling derive-syn-parse v0.1.5
+   Compiling dirs-sys v0.3.7
+   Compiling erasable v1.3.0
+   Compiling ahash v0.7.8
+   Compiling csv-core v0.1.12
+   Compiling signal-hook v0.3.18
+   Compiling sui-open-rpc-macros v0.1.0 (/Users/edy/workspace/osp/sui/crates/sui-open-rpc-macros)
+   Compiling csv v1.3.1
+   Compiling object_store v0.11.2
+   Compiling opentelemetry_sdk v0.27.1
+   Compiling axum v0.7.9
+   Compiling dirs v4.0.0
+   Compiling starlark v0.13.0
+   Compiling real_tokio v1.43.0 (https://github.com/MystenLabs/tokio-msim-fork.git?rev=7329bff6ee996d8df6cf810a9c2e59631ad5a2fb#7329bff6)
+   Compiling sui-open-rpc v1.50.0 (/Users/edy/workspace/osp/sui/crates/sui-open-rpc)
+   Compiling hyper-timeout v0.4.1
+   Compiling jsonrpsee v0.24.9
+   Compiling librocksdb-sys v0.16.0+8.10.0
+   Compiling sui-keys v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-keys)
+   Compiling move-model-2 v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-model-2)
+   Compiling petgraph v0.7.1
+   Compiling serde_spanned v0.6.8
+   Compiling msim v0.1.0 (https://github.com/MystenLabs/mysten-sim.git?rev=cad62679fd180a48c665f842cb80045f8fcfdee9#cad62679)
+   Compiling regex-syntax v0.7.5
+   Compiling toml_write v0.1.1
+   Compiling multimap v0.10.1
+   Compiling prost-build v0.13.5
+   Compiling tokio-util v0.7.13 (https://github.com/MystenLabs/tokio-msim-fork.git?rev=7329bff6ee996d8df6cf810a9c2e59631ad5a2fb#7329bff6)
+   Compiling typed-store-workspace-hack v0.0.0 (/Users/edy/workspace/osp/sui/crates/typed-store-workspace-hack)
+   Compiling tonic v0.12.3
+   Compiling move-docgen v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-docgen)
+   Compiling tonic v0.10.2
+   Compiling sui-framework v0.1.0 (/Users/edy/workspace/osp/sui/crates/sui-framework)
+   Compiling sui-json-rpc-api v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-json-rpc-api)
+   Compiling sui-framework-snapshot v1.50.0 (/Users/edy/workspace/osp/sui/crates/sui-framework-snapshot)
+   Compiling sui-config v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-config)
+   Compiling sui-transaction-builder v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-transaction-builder)
+   Compiling prost-types v0.12.6
+   Compiling mio v0.8.11
+   Compiling named-lock v0.2.0
+   Compiling socket2 v0.4.10
+   Compiling predicates-core v1.0.9
+   Compiling downcast-rs v1.2.1
+   Compiling whoami v1.6.0
+   Compiling move-package v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-package)
+   Compiling console-api v0.6.0
+   Compiling signal-hook-mio v0.2.4
+   Compiling sui-sdk v1.50.0 (/Users/edy/workspace/osp/sui/crates/sui-sdk)
+   Compiling opentelemetry-proto v0.27.0
+   Compiling tonic-build v0.13.1
+   Compiling anemo-build v0.0.0 (https://github.com/mystenlabs/anemo.git?rev=9c52c3c7946532163a79129db15180cdb984bab4#9c52c3c7)
+   Compiling arc-swap v1.7.1
+   Compiling sui-package-management v1.50.0 (/Users/edy/workspace/osp/sui/crates/sui-package-management)
+   Compiling float-cmp v0.9.0
+   Compiling instant v0.1.13
+   Compiling termtree v0.5.1
+   Compiling predicates v2.1.5
+   Compiling predicates-tree v1.0.12
+   Compiling backoff v0.4.0
+   Compiling consensus-core v0.1.0 (/Users/edy/workspace/osp/sui/consensus/core)
+   Compiling axum-server v0.6.1 (https://github.com/bmwill/axum-server.git?rev=f44323e271afdd1365fd0c8b0a4c0bbdf4956cb7#f44323e2)
+   Compiling console-subscriber v0.2.0
+   Compiling opentelemetry-otlp v0.27.0
+   Compiling crossterm v0.25.0
+   Compiling tracing-opentelemetry v0.28.0
+   Compiling sui-verifier-latest v0.1.0 (/Users/edy/workspace/osp/sui/sui-execution/latest/sui-verifier)
+   Compiling tracing-appender v0.2.3
+   Compiling bytes-varint v1.1.0
+   Compiling typed-store-derive v0.3.0 (/Users/edy/workspace/osp/sui/crates/typed-store-derive)
+   Compiling mockall_derive v0.11.4
+   Compiling fdlimit v0.2.1
+   Compiling fragile v2.0.1
+   Compiling telemetry-subscribers v0.2.0 (/Users/edy/workspace/osp/sui/crates/telemetry-subscribers)
+   Compiling sui-move-build v1.50.0 (/Users/edy/workspace/osp/sui/crates/sui-move-build)
+   Compiling sui-tls v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-tls)
+   Compiling tonic-rustls v0.2.0
+   Compiling sui-simulator v0.7.0 (/Users/edy/workspace/osp/sui/crates/sui-simulator)
+   Compiling mockall v0.11.4
+    Building [=====================> ] 1471/1481: move-compiler, starlark, librocksdb-sys(build)                                              
+
+
+   Compiling rocksdb v0.22.0
+   Compiling typed-store v0.4.0 (/Users/edy/workspace/osp/sui/crates/typed-store)
+   Compiling consensus-simtests v0.1.0 (/Users/edy/workspace/osp/sui/consensus/simtests)
+warning: unused imports: `AuthorityNode` and `Config`
+ --> consensus/simtests/src/tests/simtests.rs:5:23
+  |
+5 |     use crate::node::{AuthorityNode, Config};
+  |                       ^^^^^^^^^^^^^  ^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: unused import: `AuthorityIndex`
+ --> consensus/simtests/src/tests/simtests.rs:7:20
+  |
+7 |         Authority, AuthorityIndex, AuthorityKeyPair, Committee, Epoch, NetworkKeyPair,
+  |                    ^^^^^^^^^^^^^^
+
+warning: unused import: `mysten_metrics::RegistryService`
+  --> consensus/simtests/src/tests/simtests.rs:10:9
+   |
+10 |     use mysten_metrics::RegistryService;
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `prometheus::Registry`
+  --> consensus/simtests/src/tests/simtests.rs:12:9
+   |
+12 |     use prometheus::Registry;
+   |         ^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `sync::Arc` and `time::Duration`
+  --> consensus/simtests/src/tests/simtests.rs:14:15
+   |
+14 |     use std::{sync::Arc, time::Duration};
+   |               ^^^^^^^^^  ^^^^^^^^^^^^^^
+
+warning: unused import: `sui_protocol_config::ProtocolConfig`
+  --> consensus/simtests/src/tests/simtests.rs:17:9
+   |
+17 |     use sui_protocol_config::ProtocolConfig;
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `tempfile::TempDir`
+  --> consensus/simtests/src/tests/simtests.rs:22:9
+   |
+22 |     use tempfile::TempDir;
+   |         ^^^^^^^^^^^^^^^^^
+
+warning: unused import: `tokio::time::sleep`
+  --> consensus/simtests/src/tests/simtests.rs:23:9
+   |
+23 |     use tokio::time::sleep;
+   |         ^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `typed_store::DBMetrics`
+  --> consensus/simtests/src/tests/simtests.rs:24:9
+   |
+24 |     use typed_store::DBMetrics;
+   |         ^^^^^^^^^^^^^^^^^^^^^^
+
+warning: struct `AuthorityNode` is never constructed
+  --> consensus/simtests/src/node.rs:39:19
+   |
+39 | pub(crate) struct AuthorityNode {
+   |                   ^^^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` on by default
+
+warning: multiple associated items are never used
+   --> consensus/simtests/src/node.rs:45:12
+    |
+44  | impl AuthorityNode {
+    | ------------------ associated items in this implementation
+45  |     pub fn new(config: Config) -> Self {
+    |            ^^^
+...
+53  |     pub fn index(&self) -> AuthorityIndex {
+    |            ^^^^^
+...
+58  |     pub async fn start(&self) -> Result<()> {
+    |                  ^^^^^
+...
+65  |     pub fn spawn_committed_subdag_consumer(&self) -> Result<()> {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+81  |     pub fn commit_consumer_monitor(&self) -> Arc<CommitConsumerMonitor> {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^
+...
+90  |     pub fn transaction_client(&self) -> Arc<TransactionClient> {
+    |            ^^^^^^^^^^^^^^^^^^
+...
+100 |     pub fn stop(&self) {
+    |            ^^^^
+...
+107 |     pub fn is_running(&self) -> bool {
+    |            ^^^^^^^^^^
+
+warning: struct `AuthorityNodeInner` is never constructed
+   --> consensus/simtests/src/node.rs:112:19
+    |
+112 | pub(crate) struct AuthorityNodeInner {
+    |                   ^^^^^^^^^^^^^^^^^^
+
+warning: struct `NodeHandle` is never constructed
+   --> consensus/simtests/src/node.rs:121:8
+    |
+121 | struct NodeHandle {
+    |        ^^^^^^^^^^
+
+warning: associated items `spawn`, `is_alive`, `take_commit_receiver`, `commit_consumer_monitor`, and `transaction_client` are never used
+   --> consensus/simtests/src/node.rs:137:18
+    |
+135 | impl AuthorityNodeInner {
+    | ----------------------- associated items in this implementation
+136 |     /// Spawn a new Node.
+137 |     pub async fn spawn(config: Config) -> Self {
+    |                  ^^^^^
+...
+208 |     pub fn is_alive(&self) -> bool {
+    |            ^^^^^^^^
+...
+219 |     pub fn take_commit_receiver(&self) -> UnboundedReceiver<CommittedSubDag> {
+    |            ^^^^^^^^^^^^^^^^^^^^
+...
+231 |     pub fn commit_consumer_monitor(&self) -> Arc<CommitConsumerMonitor> {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^
+...
+235 |     pub fn transaction_client(&self) -> Arc<TransactionClient> {
+    |            ^^^^^^^^^^^^^^^^^^
+
+warning: function `make_authority` is never used
+   --> consensus/simtests/src/node.rs:240:21
+    |
+240 | pub(crate) async fn make_authority(
+    |                     ^^^^^^^^^^^^^^
+
+warning: function `test_config` is never used
+  --> consensus/simtests/src/tests/simtests.rs:26:8
+   |
+26 |     fn test_config() -> SimConfig {
+   |        ^^^^^^^^^^^
+
+warning: function `local_committee_and_keys` is never used
+   --> consensus/simtests/src/tests/simtests.rs:129:12
+    |
+129 |     pub fn local_committee_and_keys(
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `get_available_local_address` is never used
+   --> consensus/simtests/src/tests/simtests.rs:155:8
+    |
+155 |     fn get_available_local_address() -> Multiaddr {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: `consensus-simtests` (lib) generated 18 warnings (run `cargo fix --lib -p consensus-simtests` to apply 9 suggestions)
+error[E0308]: mismatched types
+   --> consensus/simtests/src/tests/simtests.rs:42:5
+    |
+42  |     #[sim_test(config = "test_config()")]
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     |
+    |     expected `Receiver<()>`, found `Receiver<_>`
+    |     arguments to this function are incorrect
+    |
+    = note: `tokio::sync::oneshot::Receiver<_>` and `Receiver<()>` have similar names, but are actually distinct types
+note: `tokio::sync::oneshot::Receiver<_>` is defined in crate `tokio`
+   --> /Users/edy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.45.1/src/sync/oneshot.rs:322:1
+    |
+322 | pub struct Receiver<T> {
+    | ^^^^^^^^^^^^^^^^^^^^^^
+note: `Receiver<()>` is defined in crate `real_tokio`
+   --> /Users/edy/.cargo/git/checkouts/tokio-msim-fork-c8d85998b0ca9c9b/7329bff/tokio/src/sync/oneshot.rs:322:1
+    |
+322 | pub struct Receiver<T> {
+    | ^^^^^^^^^^^^^^^^^^^^^^
+note: function defined here
+   --> /Users/edy/.cargo/git/checkouts/mysten-sim-84667d6d927bc7b7/cad6267/msim/src/sim/runtime/mod.rs:207:8
+    |
+207 | pub fn start_watchdog(
+    |        ^^^^^^^^^^^^^^
+    = note: this error originates in the attribute macro `sim_test` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+For more information about this error, try `rustc --explain E0308`.
+error: could not compile `consensus-simtests` (lib test) due to 1 previous error
+error: command `/Users/edy/.rustup/toolchains/1.85-x86_64-apple-darwin/bin/cargo test --no-run --message-format json-render-diagnostics --package consensus-simtests --profile simulator --config 'build.rustflags = ["--cfg","msim"]' --config 'patch.crates-io.tokio.git = "https://github.com/MystenLabs/mysten-sim.git"' --config 'patch.crates-io.tokio.rev = "cad62679fd180a48c665f842cb80045f8fcfdee9"' --config 'patch.crates-io.futures-timer.git = "https://github.com/MystenLabs/mysten-sim.git"' --config 'patch.crates-io.futures-timer.rev = "cad62679fd180a48c665f842cb80045f8fcfdee9"'` exited with code 101
+从索引区更新了 1 个路径
+edy@edydeMacBook-Pro-4 sui % 
+edy@edydeMacBook-Pro-4 sui % 
+edy@edydeMacBook-Pro-4 sui % 
+edy@edydeMacBook-Pro-4 sui % git status
+位于分支 learn_consensus
+无文件要提交，干净的工作区
+edy@edydeMacBook-Pro-4 sui % ./scripts/simtest/install.sh                              
+Installed cargo-simtest to /Users/edy/.cargo/bin/cargo-simtest
+You can now run simulator tests via `cargo simtest`
+edy@edydeMacBook-Pro-4 sui % cargo simtest -p consensus-simtests                       
+    Updating git repository `https://github.com/MystenLabs/mysten-sim.git`
+    Updating crates.io index
+     Locking 2 packages to latest compatible versions
+      Adding futures-timer v3.0.3 (https://github.com/MystenLabs/mysten-sim.git?rev=cad62679fd180a48c665f842cb80045f8fcfdee9#cad62679)
+      Adding tokio v1.44.2 (https://github.com/MystenLabs/mysten-sim.git?rev=cad62679fd180a48c665f842cb80045f8fcfdee9#cad62679)
+   Compiling real_tokio v1.43.0 (https://github.com/MystenLabs/tokio-msim-fork.git?rev=7329bff6ee996d8df6cf810a9c2e59631ad5a2fb#7329bff6)
+   Compiling log v0.4.27
+   Compiling tracing-core v0.1.33
+   Compiling futures-util v0.3.31
+   Compiling signal-hook-registry v1.4.5
+   Compiling overload v0.1.1
+   Compiling sharded-slab v0.1.7
+   Compiling thread_local v1.1.8
+   Compiling ahash v0.7.8
+   Compiling erasable v1.3.0
+   Compiling msim v0.1.0 (https://github.com/MystenLabs/mysten-sim.git?rev=cad62679fd180a48c665f842cb80045f8fcfdee9#cad62679)
+   Compiling socket2 v0.4.10
+   Compiling downcast-rs v1.2.1
+   Compiling naive-timer v0.2.0
+   Compiling async-task v4.3.0 (https://github.com/mystenmark/async-task?rev=4e45b26e11126b191701b9b2ce5e2346b8d7682f#4e45b26e)
+   Compiling nu-ansi-term v0.46.0
+   Compiling mio v0.8.11
+   Compiling rustls v0.23.27
+   Compiling tungstenite v0.26.2
+   Compiling ena v0.14.3
+   Compiling multiaddr v0.17.1
+   Compiling neptune v13.0.0
+   Compiling prost-build v0.13.5
+   Compiling tracing v0.1.41
+   Compiling tracing-log v0.2.0
+   Compiling lalrpop v0.19.12
+   Compiling tracing-subscriber v0.3.19
+   Compiling quinn-udp v0.5.12
+   Compiling ark-relations v0.4.0
+   Compiling move-vm-profiler v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-vm-profiler)
+   Compiling move-vm-types v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-vm-types)
+   Compiling ark-snark v0.4.0
+   Compiling tonic-build v0.13.1
+   Compiling ark-crypto-primitives v0.4.0
+   Compiling ark-groth16 v0.4.0
+   Compiling consensus-core v0.1.0 (/Users/edy/workspace/osp/sui/consensus/core)
+   Compiling move-vm-test-utils v0.1.0 (/Users/edy/workspace/osp/sui/external-crates/move/crates/move-vm-test-utils)
+   Compiling futures-executor v0.3.31
+   Compiling futures v0.3.31
+   Compiling sui-macros v0.7.0 (/Users/edy/workspace/osp/sui/crates/sui-macros)
+   Compiling quinn-proto v0.11.12
+   Compiling tokio-util v0.7.13 (https://github.com/MystenLabs/tokio-msim-fork.git?rev=7329bff6ee996d8df6cf810a9c2e59631ad5a2fb#7329bff6)
+   Compiling tokio v1.44.2 (https://github.com/MystenLabs/mysten-sim.git?rev=cad62679fd180a48c665f842cb80045f8fcfdee9#cad62679)
+   Compiling starlark_syntax v0.13.0
+   Compiling tokio-util v0.7.15
+   Compiling tokio-rustls v0.26.2
+   Compiling tokio-tungstenite v0.26.2
+   Compiling fastcrypto v0.1.8 (https://github.com/MystenLabs/fastcrypto?rev=69d496c71fb37e3d22fe85e5bbfd4256d61422b9#69d496c7)
+   Compiling futures-timer v3.0.3 (https://github.com/MystenLabs/mysten-sim.git?rev=cad62679fd180a48c665f842cb80045f8fcfdee9#cad62679)
+   Compiling quinn v0.11.8
+   Compiling async-compression v0.4.23
+   Compiling governor v0.6.3
+   Compiling tokio-io-timeout v1.2.0
+   Compiling backoff v0.4.0
+   Compiling h2 v0.4.10
+   Compiling tower v0.5.2
+   Compiling tower v0.4.13
+   Compiling tokio-stream v0.1.17
+   Compiling h2 v0.3.26
+   Compiling jsonrpsee-core v0.24.9
+   Compiling opentelemetry_sdk v0.27.1
+   Compiling tower-http v0.6.6
+   Compiling shared-crypto v0.0.0 (/Users/edy/workspace/osp/sui/crates/shared-crypto)
+   Compiling sui-protocol-config v0.1.0 (/Users/edy/workspace/osp/sui/crates/sui-protocol-config)
+   Compiling anemo v0.0.0 (https://github.com/mystenlabs/anemo.git?rev=9c52c3c7946532163a79129db15180cdb984bab4#9c52c3c7)
+   Compiling tower-http v0.5.2
+   Compiling fastcrypto-tbls v0.1.0 (https://github.com/MystenLabs/fastcrypto?rev=69d496c71fb37e3d22fe85e5bbfd4256d61422b9#69d496c7)
+   Compiling jsonrpsee-client-transport v0.24.9
+   Compiling hyper v1.6.0
+   Compiling anemo-tower v0.0.0 (https://github.com/mystenlabs/anemo.git?rev=9c52c3c7946532163a79129db15180cdb984bab4#9c52c3c7)
+   Compiling hyper v0.14.32
+   Compiling jsonrpsee-ws-client v0.24.9
+   Compiling axum v0.7.9
+   Compiling hyper-util v0.1.13
+   Compiling tracing-opentelemetry v0.28.0
+   Compiling axum v0.8.4
+   Compiling hyper-rustls v0.27.6
+   Compiling hyper-timeout v0.5.2
+   Compiling reqwest v0.12.19
+   Compiling sui-http v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-http)
+   Compiling fastcrypto-zkp v0.1.3 (https://github.com/MystenLabs/fastcrypto?rev=69d496c71fb37e3d22fe85e5bbfd4256d61422b9#69d496c7)
+   Compiling jsonrpsee-http-client v0.24.9
+   Compiling tonic v0.13.1
+   Compiling mysten-metrics v0.7.0 (/Users/edy/workspace/osp/sui/crates/mysten-metrics)
+   Compiling jsonrpsee-server v0.24.9
+   Compiling hyper-timeout v0.4.1
+   Compiling axum v0.6.20
+   Compiling mysten-common v0.1.0 (/Users/edy/workspace/osp/sui/crates/mysten-common)
+   Compiling jsonrpsee v0.24.9
+   Compiling tonic-health v0.13.1
+   Compiling starlark v0.13.0
+   Compiling object_store v0.11.2
+   Compiling mysten-network v0.2.0 (/Users/edy/workspace/osp/sui/crates/mysten-network)
+   Compiling tonic-web v0.13.1
+   Compiling tonic-reflection v0.13.1
+   Compiling consensus-config v0.1.0 (/Users/edy/workspace/osp/sui/consensus/config)
+   Compiling tonic v0.10.2
+   Compiling tonic v0.12.3
+   Compiling sui-types v0.1.0 (/Users/edy/workspace/osp/sui/crates/sui-types)
+   Compiling axum-server v0.6.1 (https://github.com/bmwill/axum-server.git?rev=f44323e271afdd1365fd0c8b0a4c0bbdf4956cb7#f44323e2)
+   Compiling console-api v0.6.0
+   Compiling opentelemetry-proto v0.27.0
+   Compiling console-subscriber v0.2.0
+   Compiling opentelemetry-otlp v0.27.0
+   Compiling telemetry-subscribers v0.2.0 (/Users/edy/workspace/osp/sui/crates/telemetry-subscribers)
+   Compiling sui-tls v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-tls)
+   Compiling tonic-rustls v0.2.0
+   Compiling typed-store v0.4.0 (/Users/edy/workspace/osp/sui/crates/typed-store)
+   Compiling sui-framework v0.1.0 (/Users/edy/workspace/osp/sui/crates/sui-framework)
+   Compiling sui-framework-snapshot v1.50.0 (/Users/edy/workspace/osp/sui/crates/sui-framework-snapshot)
+   Compiling sui-rpc-api v0.1.0 (/Users/edy/workspace/osp/sui/crates/sui-rpc-api)
+   Compiling sui-json v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-json)
+   Compiling sui-keys v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-keys)
+   Compiling sui-package-management v1.50.0 (/Users/edy/workspace/osp/sui/crates/sui-package-management)
+   Compiling sui-verifier-latest v0.1.0 (/Users/edy/workspace/osp/sui/sui-execution/latest/sui-verifier)
+   Compiling sui-package-resolver v0.1.0 (/Users/edy/workspace/osp/sui/crates/sui-package-resolver)
+   Compiling sui-json-rpc-types v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-json-rpc-types)
+   Compiling sui-config v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-config)
+   Compiling sui-transaction-builder v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-transaction-builder)
+   Compiling sui-json-rpc-api v0.0.0 (/Users/edy/workspace/osp/sui/crates/sui-json-rpc-api)
+   Compiling sui-sdk v1.50.0 (/Users/edy/workspace/osp/sui/crates/sui-sdk)
+   Compiling sui-move-build v1.50.0 (/Users/edy/workspace/osp/sui/crates/sui-move-build)
+   Compiling sui-simulator v0.7.0 (/Users/edy/workspace/osp/sui/crates/sui-simulator)
+   Compiling consensus-simtests v0.1.0 (/Users/edy/workspace/osp/sui/consensus/simtests)
+warning: unused imports: `AuthorityNode` and `Config`
+ --> consensus/simtests/src/tests/simtests.rs:5:23
+  |
+5 |     use crate::node::{AuthorityNode, Config};
+  |                       ^^^^^^^^^^^^^  ^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: unused import: `AuthorityIndex`
+ --> consensus/simtests/src/tests/simtests.rs:7:20
+  |
+7 |         Authority, AuthorityIndex, AuthorityKeyPair, Committee, Epoch, NetworkKeyPair,
+  |                    ^^^^^^^^^^^^^^
+
+warning: unused import: `mysten_metrics::RegistryService`
+  --> consensus/simtests/src/tests/simtests.rs:10:9
+   |
+10 |     use mysten_metrics::RegistryService;
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `prometheus::Registry`
+  --> consensus/simtests/src/tests/simtests.rs:12:9
+   |
+12 |     use prometheus::Registry;
+   |         ^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `sync::Arc` and `time::Duration`
+  --> consensus/simtests/src/tests/simtests.rs:14:15
+   |
+14 |     use std::{sync::Arc, time::Duration};
+   |               ^^^^^^^^^  ^^^^^^^^^^^^^^
+
+warning: unused import: `sui_protocol_config::ProtocolConfig`
+  --> consensus/simtests/src/tests/simtests.rs:17:9
+   |
+17 |     use sui_protocol_config::ProtocolConfig;
+   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `tempfile::TempDir`
+  --> consensus/simtests/src/tests/simtests.rs:22:9
+   |
+22 |     use tempfile::TempDir;
+   |         ^^^^^^^^^^^^^^^^^
+
+warning: unused import: `tokio::time::sleep`
+  --> consensus/simtests/src/tests/simtests.rs:23:9
+   |
+23 |     use tokio::time::sleep;
+   |         ^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `typed_store::DBMetrics`
+  --> consensus/simtests/src/tests/simtests.rs:24:9
+   |
+24 |     use typed_store::DBMetrics;
+   |         ^^^^^^^^^^^^^^^^^^^^^^
+
+warning: struct `AuthorityNode` is never constructed
+  --> consensus/simtests/src/node.rs:39:19
+   |
+39 | pub(crate) struct AuthorityNode {
+   |                   ^^^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` on by default
+
+warning: multiple associated items are never used
+   --> consensus/simtests/src/node.rs:45:12
+    |
+44  | impl AuthorityNode {
+    | ------------------ associated items in this implementation
+45  |     pub fn new(config: Config) -> Self {
+    |            ^^^
+...
+53  |     pub fn index(&self) -> AuthorityIndex {
+    |            ^^^^^
+...
+58  |     pub async fn start(&self) -> Result<()> {
+    |                  ^^^^^
+...
+65  |     pub fn spawn_committed_subdag_consumer(&self) -> Result<()> {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+81  |     pub fn commit_consumer_monitor(&self) -> Arc<CommitConsumerMonitor> {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^
+...
+90  |     pub fn transaction_client(&self) -> Arc<TransactionClient> {
+    |            ^^^^^^^^^^^^^^^^^^
+...
+100 |     pub fn stop(&self) {
+    |            ^^^^
+...
+107 |     pub fn is_running(&self) -> bool {
+    |            ^^^^^^^^^^
+
+warning: struct `AuthorityNodeInner` is never constructed
+   --> consensus/simtests/src/node.rs:112:19
+    |
+112 | pub(crate) struct AuthorityNodeInner {
+    |                   ^^^^^^^^^^^^^^^^^^
+
+warning: struct `NodeHandle` is never constructed
+   --> consensus/simtests/src/node.rs:121:8
+    |
+121 | struct NodeHandle {
+    |        ^^^^^^^^^^
+
+warning: associated items `spawn`, `is_alive`, `take_commit_receiver`, `commit_consumer_monitor`, and `transaction_client` are never used
+   --> consensus/simtests/src/node.rs:137:18
+    |
+135 | impl AuthorityNodeInner {
+    | ----------------------- associated items in this implementation
+136 |     /// Spawn a new Node.
+137 |     pub async fn spawn(config: Config) -> Self {
+    |                  ^^^^^
+...
+208 |     pub fn is_alive(&self) -> bool {
+    |            ^^^^^^^^
+...
+219 |     pub fn take_commit_receiver(&self) -> UnboundedReceiver<CommittedSubDag> {
+    |            ^^^^^^^^^^^^^^^^^^^^
+...
+231 |     pub fn commit_consumer_monitor(&self) -> Arc<CommitConsumerMonitor> {
+    |            ^^^^^^^^^^^^^^^^^^^^^^^
+...
+235 |     pub fn transaction_client(&self) -> Arc<TransactionClient> {
+    |            ^^^^^^^^^^^^^^^^^^
+
+warning: function `make_authority` is never used
+   --> consensus/simtests/src/node.rs:240:21
+    |
+240 | pub(crate) async fn make_authority(
+    |                     ^^^^^^^^^^^^^^
+
+warning: function `test_config` is never used
+  --> consensus/simtests/src/tests/simtests.rs:26:8
+   |
+26 |     fn test_config() -> SimConfig {
+   |        ^^^^^^^^^^^
+
+warning: function `local_committee_and_keys` is never used
+   --> consensus/simtests/src/tests/simtests.rs:129:12
+    |
+129 |     pub fn local_committee_and_keys(
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: function `get_available_local_address` is never used
+   --> consensus/simtests/src/tests/simtests.rs:155:8
+    |
+155 |     fn get_available_local_address() -> Multiaddr {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: `consensus-simtests` (lib) generated 18 warnings (run `cargo fix --lib -p consensus-simtests` to apply 9 suggestions)
+warning: methods `index`, `stop`, and `is_running` are never used
+   --> consensus/simtests/src/node.rs:53:12
+    |
+44  | impl AuthorityNode {
+    | ------------------ methods in this implementation
+...
+53  |     pub fn index(&self) -> AuthorityIndex {
+    |            ^^^^^
+...
+100 |     pub fn stop(&self) {
+    |            ^^^^
+...
+107 |     pub fn is_running(&self) -> bool {
+    |            ^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` on by default
+
+warning: field `cancel_sender` is never read
+   --> consensus/simtests/src/node.rs:114:5
+    |
+112 | pub(crate) struct AuthorityNodeInner {
+    |                   ------------------ field in this struct
+113 |     handle: Option<NodeHandle>,
+114 |     cancel_sender: Option<tokio::sync::watch::Sender<bool>>,
+    |     ^^^^^^^^^^^^^
+
+warning: method `is_alive` is never used
+   --> consensus/simtests/src/node.rs:208:12
+    |
+135 | impl AuthorityNodeInner {
+    | ----------------------- method in this implementation
+...
+208 |     pub fn is_alive(&self) -> bool {
+    |            ^^^^^^^^
+
+warning: `consensus-simtests` (lib test) generated 3 warnings
+    Finished `simulator` profile [optimized + debuginfo] target(s) in 8m 45s
+warning: warning: saw package ID `registry+https://github.com/rust-lang/crates.io-index#erasable@1.3.0` which wasn't produced by cargo metadata
+warning: warning: saw package ID `git+https://github.com/MystenLabs/mysten-sim.git?rev=cad62679fd180a48c665f842cb80045f8fcfdee9#msim@0.1.0` which wasn't produced by cargo metadata
+warning: warning: saw package ID `git+https://github.com/MystenLabs/mysten-sim.git?rev=cad62679fd180a48c665f842cb80045f8fcfdee9#msim@0.1.0` which wasn't produced by cargo metadata
+warning: warning: saw package ID `registry+https://github.com/rust-lang/crates.io-index#erasable@1.3.0` which wasn't produced by cargo metadata
+────────────
+ Nextest run ID 51127751-374f-457e-9d9e-504403402883 with nextest profile: default
+    Starting 1 test across 1 binary
+        SLOW [> 60.000s] consensus-simtests simtests::test::test_committee_start_simple
+        PASS [  89.014s] consensus-simtests simtests::test::test_committee_start_simple
+────────────
+     Summary [  89.026s] 1 test run: 1 passed (1 slow), 0 skipped
+从索引区更新了 1 个路径
+edy@edydeMacBook-Pro-4 sui % ./scripts/simtest/install.sh       
+edy@edydeMacBook-Pro-4 sui % history
+ 1084  git commit -m "update config.toml"
+ 1085  git push origin learn_consensus 
+ 1086  clear
+ 1087  git remote set-url origin git@github.com:qpzmV/sui_gognshi.git
+ 1088  git push origin learn_consensus 
+ 1089  git commit --amend
+ 1090  git push origin learn_consensus -f
+ 1091  cargo simtest -p consensus-simtests
+ 1092  git status
+ 1093  ./scripts/simtest/install.sh
+ 1094  cargo simtest -p consensus-simtests
+ 1095  git status
+ 1096  RUSTFLAGS="--cfg msim" cargo simtest -p consensus-simtests
+ 1097  git status
+ 1098  ./scripts/simtest/install.sh
+ 1099  cargo simtest -p consensus-simtests
+edy@edydeMacBook-Pro-4 sui % 
